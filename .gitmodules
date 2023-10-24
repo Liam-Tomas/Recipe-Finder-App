@@ -1,0 +1,6 @@
+[submodule "recipe-react"]
+	path = recipe-react
+	url = https://github.com/Liam-Tomas/recipe_frontend
+[submodule "recipe-backend"]
+	path = recipe-backend
+	url = https://github.com/Liam-Tomas/recipe_backend
