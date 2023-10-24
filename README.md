@@ -9,11 +9,11 @@ Backend (recipe-backend): This part handles the data and logic behind the scenes
 ## Getting Started
 To run the app locally:
 Clone the Repository
-```bash Copy code git clone https://github.com/Liam-Tomas/Recipe-Finder-App.git```
+```git clone https://github.com/Liam-Tomas/Recipe-Finder-App.git```
 Navigate and Setup Frontend
-```bash Copy code cd recipe-react npm install npm start```
+```cd recipe-react npm install npm start```
 Navigate and Setup Backend
-```bash Copy code cd recipe-backend npm install npm start```
+```cd recipe-backend npm install npm start```
 Contributing
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
