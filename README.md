@@ -1,23 +1,41 @@
-# Recipe Finder App
-Welcome to the Recipe Finder App! This project is designed to help users find and share their favorite recipes. It's composed of a frontend developed using React and a backend service. Both parts are crucial to the functionality of the app.
+# Recipe Manager Full-Stack Web Application
 
-## Structure
-Frontend (recipe-react): This is the user interface of our application, where users can browse, search, and interact with recipes. Developed using React, it provides a dynamic and responsive experience.
+## Live Project
+Check out the project at https://recipe-finder-foodhub.netlify.app/
 
-Backend (recipe-backend): This part handles the data and logic behind the scenes. It manages user data, recipes, and ensures that everything runs smoothly.
+## Overview
+The Recipe Manager is a full-stack web application designed to provide a comprehensive platform for users to discover, manage, and save recipes. The application consists of a React-based frontend and a Node.js/Express backend, with MongoDB for database management.
 
-## Getting Started
-To run the app locally:
-Clone the Repository
-```git clone https://github.com/Liam-Tomas/Recipe-Finder-App.git```
-Navigate and Setup Frontend
-```cd recipe-react npm install npm start```
-Navigate and Setup Backend
-```cd recipe-backend npm install npm start```
-Contributing
-If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+## Project Structure
 
-Links
-Repository: https://github.com/Liam-Tomas/Recipe-Finder-App
-Issue tracker: https://github.com/Liam-Tomas/Recipe-Finder-App/issues
-In case of sensitive bugs like security vulnerabilities, please contact ltarmstrong@gmail.com directly instead of using the issue tracker.
+## Repository Structure
+- `/recipe-frontend`: Contains all frontend-related files and components.
+- `/recipe-backend`: Houses the backend server, controllers, models, and routes.
+
+### Frontend (`/recipe-frontend`)
+The frontend is developed using React and communicates with the backend for data retrieval and management.
+- **Main Components:**
+  - `App.js`: The main component that sets up routing and global state.
+  - `NavBar`, `Footer`: Components for the application's navigation bar and footer.
+  - `RecipeDetail`, `ExplorePage`, `FavoritesPage`, etc.: Components for different pages and functionalities.
+- **Technologies:** React, Material-UI, Styled-Components, React Router.
+
+### Backend (`/recipe-backend`)
+The backend handles API requests, interacts with the MongoDB database, and provides endpoints for the frontend.
+- **Main Files:**
+  - `app.mjs`: Entry point for the backend server.
+  - `/controllers`: Contains controllers like `favorites_controller.mjs`, `recipe_search_controller.mjs`, etc.
+  - `/models`: Mongoose models such as `recipe_model.mjs`.
+  - `/routes`: Express routes, particularly `recipe_routes.mjs`.
+- **Technologies:** Node.js, Express.js, MongoDB, Mongoose.
+
+## Technologies Used
+- **Frontend:** React, Material-UI, Styled-Components, Axios.
+- **Backend:** Node.js, Express.js, MongoDB, Mongoose.
+- **Database:** MongoDB for storing and managing recipe data.
+
+## Project Login
+Feel free to create a new account or use this general account if you would just like
+to quickly test all the features: 
+    username: user@gmail.com
+    password: password123
